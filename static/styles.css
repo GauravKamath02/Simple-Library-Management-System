@@ -1,0 +1,88 @@
+/* Reset default margins and paddings */
+body, h1, h2, form, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color and text color */
+body {
+    background-color: #c2e9c7; /* Light green background color */
+    color: #333;
+}
+
+/* Center align the page content */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.section {
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the forms */
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-section input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the book and user lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Remove links */
+a {
+    color: #d9534f;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
